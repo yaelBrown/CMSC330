@@ -4,7 +4,7 @@ public class Weel3 {
     static {
         boolean x = false;
         System.out.println("x = " + x);
-        i = 12;
+//        i = 12;
     }
 
     public static String method() {
@@ -25,7 +25,7 @@ public class Weel3 {
 
 
         double a = 2.1;
-        float b = a;
+//        float b = a;
 
         int c = 1;
         double d = c;
