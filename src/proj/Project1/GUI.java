@@ -1,3 +1,11 @@
+/*
+Filename: GUI.java
+Author: Yael Brown
+Date: 9/12/2020
+Brief Purpose of the Program: A program that parses, using recursive descent, a GUI
+definition language defined in an input file and generates the GUI that it defines.
+*/
+
 package proj.Project1;
 
 import javax.swing.*;
@@ -47,8 +55,6 @@ public class GUI extends JFrame {
                 }
                 break;
             case "Panel":
-                // this.frame.add(pnl);
-
                 int row = Integer.parseInt(line[2].substring(5, endVal(line[2])));
                 int col = Integer.parseInt(line[3].substring(0, endVal(line[3])));
                 int hgap = Integer.parseInt(line[4].substring(0, endVal(line[4])));
